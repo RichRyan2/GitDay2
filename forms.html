@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    <form action="post">
+        <h1>Form Sample</h1>
+        <label for="name">Name: </label>
+        <input type="text" name="name" id="name" required> <br /><br />
+
+        <label for="age">Age: </label>
+        <input type="number" name="age" id="age" required> <br /><br />
+
+        <label for="email">Email Address: </label>
+        <input type="email" name="email" id="email" required> <br /><br />
+
+        <label for="message">Message: </label>
+        <textarea type="text" name="message" id="message" cols="40" rows="10"> </textarea> <br /><br />
+        <label for="gender">Gender: </label>
+        <select name="gender" id="gender">
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+            <option value="neither">Others</option>
+            <option value="none">Prefer not to say</option>
+        </select> <br /><br />
+
+        <input type="radio" name="options" id="sex">
+        <label for="sex">Sex</label>
+        <input type="radio" name="options" id="drugs">
+        <label for="drugs">Drugs</label>
+        <input type="radio" name="options" id="rocknroll">
+        <label for="rocknroll">Rock n' Roll</label>
+
+        <br /><br />
+
+        <input type="checkbox" name="sex" id="sex">
+        <label for="sex">Sex</label>
+        <input type="checkbox" name="drugs" id="dream">
+        <label for="drugs">Drugs</label>
+        <input type="checkbox" name="rocknroll" id="rocknroll">
+        <label for="rocknroll">Rock n' Roll</label>
+
+        <br /><br />
+
+        <input type="submit"></input>
+
+    </form>
+</body>
+</html>
